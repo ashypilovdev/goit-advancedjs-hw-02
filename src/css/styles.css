@@ -33,3 +33,36 @@ button[data-start] {
   font-size: 14px;
   text-transform: uppercase;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 340px;
+  margin-top: 16px;
+  font-size: 18px;
+}
+
+.form > label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form input[type='number'] {
+  padding: 8px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.form fieldset {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 4px 24px 8px;
+}
+
+.form button {
+  padding: 2px 8px;
+  font-size: 16px;
+}
