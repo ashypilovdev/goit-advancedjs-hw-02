@@ -1,2 +1,35 @@
 @import url('./reset.css');
 
+#datetime-picker {
+  margin-top: 16px;
+  padding: 4px 8px;
+  width: 240px;
+  font-size: 20px;
+}
+
+button[data-start] {
+  padding: 4px 8px;
+  font-size: 20px;
+}
+
+.timer {
+  display: flex;
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.timer .field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer .value {
+  font-size: 44px;
+  line-height: 1.1;
+}
+
+.timer .label {
+  font-size: 14px;
+  text-transform: uppercase;
+}
